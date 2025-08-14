@@ -1052,4 +1052,74 @@ header nav a{
     justify-content: center;
     gap: 4rem;
   }
-  
+  .about-content {
+    flex: 1; /* Allows content to take up available space */
+    max-width: 500px; /* Prevents text from being too wide */
+    text-align: left;
+  }
+
+  .about img {
+    flex: 1;
+    max-width: 450px;
+  }
+
+  .address ul {
+    flex-direction: row; /* Display address items horizontally */
+    justify-content: space-between;
+  }
+}
+/* about section end */
+
+.glow{
+            text-shadow: 0 0 5px #0ff, 0 0 10px #0ff, 0 0 15px #0ff, 0 0 20px #0ff;
+            transition: all 0.3s ease-in-out;
+            animation: pulse-glow 1.5s infinite alternate;
+        }
+
+        /* Define the pulse-glow animation */
+        @keyframes pulse-glow {
+            from {
+                text-shadow: 0 0 5px #0ff, 0 0 10px #0ff, 0 0 15px #0ff;
+            }
+            to {
+                text-shadow: 0 0 10px #0ff, 0 0 20px #0ff, 0 0 30px #0ff;
+            }
+        }
+
+        /* Ensure the thank you message is hidden by default and styled */
+        .thank-you-message {
+            display: none;
+                }
+/* buy now section */
+
+ .cart-summary {
+        margin-top: auto; /* Pushes the summary to the bottom */
+        padding-top: 20px;
+        border-top: 2px solid #f9004d;
+        color: white;
+        text-align: right;
+    }
+    .cart-summary p {
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+    .buy-now-btn {
+        display: block;
+        width: 100%;
+        padding: 15px;
+        background-color: #f9004d;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 1.2rem;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+    .buy-now-btn:hover {
+        background-color: #d60044;
+    }
+
+     
+
