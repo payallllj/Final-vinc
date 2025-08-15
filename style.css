@@ -508,6 +508,9 @@ margin: 0;
     .arrows{
         top: 10%;
     }
+    .slider .list .item img{
+        object-fit: cover;
+    }
 }
 /* Models section*/
 }
