@@ -557,6 +557,8 @@ header{
     margin: auto;
     height: 50px;
     align-items: center;
+    background-image: url(dodge.jpg);
+    
 }
 header .logo{
     font-weight: bold;
