@@ -432,3 +432,5 @@ const cartSummary = document.querySelector('.cart-summary');
             messageBox.remove();
         }, 3000);
 }
+
+var video = document.getElementById("myVideo");
