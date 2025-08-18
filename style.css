@@ -944,8 +944,9 @@ header nav a{
 
 #myabout{
     width: 100%;
-    height: auto;
+    height: 100vh;
     display: absolute;
+    object-fit: cover;
     
 }
 
