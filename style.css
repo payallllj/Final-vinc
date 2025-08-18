@@ -942,6 +942,15 @@ header nav a{
 
 /* About section*/
 
+#myabout{
+    width: 100%;
+    height: auto;
+    display: absolute;
+    
+}
+
+
+
 /* text-effect*/
 .text-effect{
   margin-top: 10px;
