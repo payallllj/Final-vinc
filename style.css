@@ -7,6 +7,13 @@ body{
   background: black;
     
 }
+/* vinc logo*/
+.dancing{
+  text-shadow: 0 0 5px #0ff, 0 0 10px #0ff, 0 0 15px #0ff, 0 0 20px #0ff;
+  font-weight: bold;
+            transition: all 0.3s ease-in-out;
+            animation: pulse-glow 1.5s infinite alternate;
+}
 
         /* Define the pulse-glow animation */
         @keyframes pulse-glow {
