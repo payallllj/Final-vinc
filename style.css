@@ -947,6 +947,7 @@ header nav a{
     height: 100vh;
     display: absolute;
     object-fit: cover;
+    z-index: -1;
     
 }
 
