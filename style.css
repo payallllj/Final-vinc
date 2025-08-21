@@ -946,8 +946,8 @@ header nav a{
 #myabout {
   /* Fix the video position so it stays in the background */
   position: fixed;
- /* right: 0;
-  bottom: 0;*/
+ left: 0;
+  top: 0;
   min-width: 100%;
   min-height: 100%;
   width: auto;
@@ -978,7 +978,7 @@ header nav a{
 }*/
     
     
-}
+
 
 
 
