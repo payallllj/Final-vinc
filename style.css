@@ -945,7 +945,7 @@ header nav a{
     /* CSS for the full-screen video background */
 #myabout {
   /* Fix the video position so it stays in the background */
-  position: fixed;
+  position: absolute;
  right: 0;
   bottom: 0;
   min-width: 100%;
