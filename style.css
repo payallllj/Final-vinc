@@ -946,8 +946,8 @@ header nav a{
 #myabout {
   /* Fix the video position so it stays in the background */
   position: fixed;
- left: 0;
-  top: 0;
+ right: 0;
+  bottom: 0;
   min-width: 100%;
   min-height: 100%;
   width: auto;
@@ -959,23 +959,6 @@ header nav a{
 /* * You'll also need to style the content container (your "about" section)
  * to ensure the text is visible and readable over the video.
  */
-/*.about-section {
-  position: relative;
-  /* Add padding and margins to create space around your content */
-/*  padding: 50px;
-  /* Add a semi-transparent background to make the text stand out */
- /* background: rgba(0, 0, 0, 0.5); 
-  color: white; /* Make the text color light */
-  /* Ensure the content is on top of the video */
- /* z-index: 1;
-}
-
-/* Optional: Hide the video on smaller screens for better performance */
-/*@media (max-width: 768px) {
-  #myabout {
-    display: none;
-  }
-}*/
     
     
 
