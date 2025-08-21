@@ -952,7 +952,7 @@ header nav a{
   min-height: 100%;
   width: auto;
   height: auto;
-  z-index: -100; /* Place the video behind all other content */
+  z-index: -1; /* Place the video behind all other content */
   object-fit: cover; /* This ensures the video fills the container without stretching */
 }
 
@@ -1018,10 +1018,10 @@ header nav a{
 
 /* about*/
 .about {
-    position: relative;
+    
   /* Ensure the content is on top of the video */
-  z-index: 1;
   display: flex;
+    z-index: 1;
   flex-direction: column; /* Stack elements vertically on mobile */
   align-items: center;
   padding: 2rem;
