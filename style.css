@@ -943,9 +943,9 @@ header nav a{
 /* About section*/
 
     /* CSS for the full-screen video background */
-#myabout {
+/*#myabout {
   /* Fix the video position so it stays in the background */
-  position: absolute;
+ /* position: absolute;
  right: 0;
   bottom: 0;
   min-width: 100%;
@@ -953,8 +953,8 @@ header nav a{
   width: auto;
   height: auto;
   z-index: -1; /* Place the video behind all other content */
-  object-fit: cover; /* This ensures the video fills the container without stretching */
-}
+  /*object-fit: cover; /* This ensures the video fills the container without stretching */
+/*}/*
 
 /* * You'll also need to style the content container (your "about" section)
  * to ensure the text is visible and readable over the video.
